@@ -1,0 +1,51 @@
+    <!-- TOP BANNER -->
+    <div id="top-banner" class="top-banner">
+        <div id="top-banner-grid" class="container mx-auto grid grid-cols-2 md:grid-cols-3 items-center">
+            <div class="language-dropdown relative justify-self-start" id="language-dropdown">
+                <button class="language-dropdown-btn" aria-label="Select language">
+                    <span class="flex items-center gap-2">
+                        <div class="language-flag flag-en" id="current-flag"></div>
+                        <span id="current-language-text">English</span>
+                    </span>
+                    <i class="fas fa-chevron-down text-xs ml-2 transition-transform duration-300"></i>
+                </button>
+                <div class="language-dropdown-content">
+                    <a href="#" class="language-option" data-lang="en" data-lang-name="English"><div class="language-flag flag-en"></div><span>English</span></a>
+                    <a href="#" class="language-option" data-lang="fr" data-lang-name="Français"><div class="language-flag flag-fr"></div><span>Français</span></a>
+                    <a href="#" class="language-option" data-lang="es" data-lang-name="Español"><div class="language-flag flag-es"></div><span>Español</span></a>
+                </div>
+            </div>
+            <div id="welcome-message" class="text-center justify-self-end md:justify-self-center">
+                 <span class="md:hidden text-xs">Welcome to<br>Viatrexx US Bio Inc.</span>
+                <span class="hidden md:inline">Welcome to Viatrexx US Bio Inc.</span>
+                <div class="banner-flag flag-us hidden md:inline-block ml-2"></div>
+            </div>
+            <div class="hidden md:flex justify-self-end">
+                <a href="partner-program-signup.html" class="practitioner-reg-btn">Practitioner Registration</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="home.html" class="flex items-center"><img src="../storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68055cff29d62943f33635ea.webp" alt="Viatrexx Logo" class="h-10"></a>
+                <nav class="hidden md:block">
+                    <ul class="desktop-nav flex space-x-2">
+                        <li><a href="home.html" class="nav-link">Home</a></li>
+                        <li><a href="products.html" class="nav-link">Products</a></li>
+                        <li><a href="resources.html" class="nav-link">Resources</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2">
+                    <a href="products.html" class="shop-icon-btn hidden md:flex" aria-label="Shop"><i class="fas fa-shopping-cart"></i></a>
+                    <button id="login-btn" class="btn-primary hidden md:block">Login</button>
+                    <button class="mobile-menu-btn md:hidden" aria-label="Open mobile menu"><div id="hamburger" class="space-y-1.5"><span class="block w-6 h-0.5 bg-gray-700"></span><span class="block w-6 h-0.5 bg-gray-700"></span><span class="block w-6 h-0.5 bg-gray-700"></span></div></button>
+                </div>
+            </div>
+        </div>
+    </header>
