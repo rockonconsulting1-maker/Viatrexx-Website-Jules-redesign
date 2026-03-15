@@ -1,0 +1,357 @@
+[
+  {
+    "from": "/about.html",
+    "to": "/about",
+    "type": 301
+  },
+  {
+    "from": "/cart.html",
+    "to": "/cart",
+    "type": 301
+  },
+  {
+    "from": "/contact.html",
+    "to": "/contact",
+    "type": 301
+  },
+  {
+    "from": "/copyright-policy.html",
+    "to": "/copyright-policy",
+    "type": 301
+  },
+  {
+    "from": "/fonts.googleapis.com/index.html",
+    "to": "/fonts.googleapis.com",
+    "type": 301
+  },
+  {
+    "from": "/home.html",
+    "to": "/",
+    "type": 301
+  },
+  {
+    "from": "/index.html",
+    "to": "/",
+    "type": 301
+  },
+  {
+    "from": "/medical-disclaimer.html",
+    "to": "/medical-disclaimer",
+    "type": 301
+  },
+  {
+    "from": "/partner-program-signup.html",
+    "to": "/partner-program-signup",
+    "type": 301
+  },
+  {
+    "from": "/product-details/index.html",
+    "to": "/product-details",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-AA-2 50_.html",
+    "to": "/products/AAP-AA-2 50_",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-Essential.html",
+    "to": "/products/AAP-Essential",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-GF-2.html",
+    "to": "/products/AAP-GF-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-IM-1 50_.html",
+    "to": "/products/AAP-IM-1 50_",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-IM-3.html",
+    "to": "/products/AAP-IM-3",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-MA-2.html",
+    "to": "/products/AAP-MA-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-N-4 7_ nasal.html",
+    "to": "/products/AAP-N-4 7_ nasal",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-N-5 50_.html",
+    "to": "/products/AAP-N-5 50_",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-N-6.html",
+    "to": "/products/AAP-N-6",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-N-7.html",
+    "to": "/products/AAP-N-7",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-N-8.html",
+    "to": "/products/AAP-N-8",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-QA-1 7_ nasal.html",
+    "to": "/products/AAP-QA-1 7_ nasal",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-S-2.html",
+    "to": "/products/AAP-S-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-WT-3 20_.html",
+    "to": "/products/AAP-WT-3 20_",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/AAP-WT-4.html",
+    "to": "/products/AAP-WT-4",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-aa-1.html",
+    "to": "/products/aap-aa-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-aa-2.html",
+    "to": "/products/aap-aa-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-am-1.html",
+    "to": "/products/aap-am-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-essentials.html",
+    "to": "/products/aap-essentials",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-gf-1.html",
+    "to": "/products/aap-gf-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-im-1.html",
+    "to": "/products/aap-im-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-im-2.html",
+    "to": "/products/aap-im-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-ma-1.html",
+    "to": "/products/aap-ma-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-n-1.html",
+    "to": "/products/aap-n-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-n-2.html",
+    "to": "/products/aap-n-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-n-3.html",
+    "to": "/products/aap-n-3",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-n-4.html",
+    "to": "/products/aap-n-4",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-n-5.html",
+    "to": "/products/aap-n-5",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-qa-1.html",
+    "to": "/products/aap-qa-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-s-1.html",
+    "to": "/products/aap-s-1",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-wt-2.html",
+    "to": "/products/aap-wt-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/aap-wt-3.html",
+    "to": "/products/aap-wt-3",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/acnexx-2.html",
+    "to": "/products/acnexx-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/acnexx.html",
+    "to": "/products/acnexx",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/adipose.html",
+    "to": "/products/adipose",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/adiposexx.html",
+    "to": "/products/adiposexx",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/amoebexx.html",
+    "to": "/products/amoebexx",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/arthrexx-2.html",
+    "to": "/products/arthrexx-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/arthrexx.html",
+    "to": "/products/arthrexx",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/articulexx-2.html",
+    "to": "/products/articulexx-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/articulexx.html",
+    "to": "/products/articulexx",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/bacterexx-2.html",
+    "to": "/products/bacterexx-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/bacterexx.html",
+    "to": "/products/bacterexx",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/bowelexx-2.html",
+    "to": "/products/bowelexx-2",
+    "type": 301
+  },
+  {
+    "from": "/product-details/product/bowelexx.html",
+    "to": "/products/bowelexx",
+    "type": 301
+  },
+  {
+    "from": "/products.html",
+    "to": "/products",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/cardiovascular-support.html",
+    "to": "/collections/cardiovascular-support",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/detox-drainage.html",
+    "to": "/collections/detox-drainage",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/general-wellness-neurological.html",
+    "to": "/collections/general-wellness-neurological",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/immune-allergy-support.html",
+    "to": "/collections/immune-allergy-support",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/index.html",
+    "to": "/collections",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/metabolic-cellular-health.html",
+    "to": "/collections/metabolic-cellular-health",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/microbial-support.html",
+    "to": "/collections/microbial-support",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/organotherapy-hormonal-support.html",
+    "to": "/collections/organotherapy-hormonal-support",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/pain-inflammation.html",
+    "to": "/collections/pain-inflammation",
+    "type": 301
+  },
+  {
+    "from": "/products/collections/structural-joint-support.html",
+    "to": "/collections/structural-joint-support",
+    "type": 301
+  },
+  {
+    "from": "/refund-policy.html",
+    "to": "/refund-policy",
+    "type": 301
+  },
+  {
+    "from": "/resources.html",
+    "to": "/resources",
+    "type": 301
+  },
+  {
+    "from": "/science.html",
+    "to": "/science",
+    "type": 301
+  },
+  {
+    "from": "/services.html",
+    "to": "/services",
+    "type": 301
+  },
+  {
+    "from": "/shipping-policy.html",
+    "to": "/shipping-policy",
+    "type": 301
+  }
+]
