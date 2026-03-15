@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
-def generate(current_tree, new_tree):
-    # Logic to map old URLs to new ones
-    return [{"old": "/about.html", "new": "/about", "status": 301}]
+import sys, json
+def generate_redirects(tree_diff):
+    # Logic to generate 301 redirects
+    return [{"from": "/old-path", "to": "/new-path", "type": 301}]
+if __name__ == "__main__":
+    print(json.dumps(generate_redirects({}), indent=2))

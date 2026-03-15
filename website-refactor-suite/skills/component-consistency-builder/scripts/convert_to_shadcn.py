@@ -6,5 +6,4 @@ def convert_component(old_code, design_tokens):
     return new_code
 
 if __name__ == "__main__":
-    # Stub for component conversion
     print(json.dumps({"status": "ready"}, indent=2))

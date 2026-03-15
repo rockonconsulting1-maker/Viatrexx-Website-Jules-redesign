@@ -5,20 +5,32 @@
 - Total Unique Links: 98
 - Full list of pages available in `site_snapshot.json`.
 
-## 2. Styles (Snapshot)
+## 2. Styles (Master Sheet)
 - Total Unique CSS Classes: 756
-- Most styles are derived from Tailwind CSS 2.2.19 and FontAwesome 5/6.
 - Consolidated styles list: `current_styles.txt`.
+- Primary Frameworks: Tailwind CSS 2.2.19, FontAwesome 5/6, Animate.css.
+- Inline styles are prevalent in the mirrored HTML, indicating a need for tokenization.
 
-## 3. Copywriting (Snapshot)
-- Content extracted from headers, paragraphs, and spans across all pages.
+## 3. Copywriting (Master Content)
+- Content extracted from all semantic tags across all pages.
 - Full text dump: `current_copywriting.txt`.
+- Observations: Copy is currently feature-focused; needs benefit-driven transformation.
 
 ## 4. Functions and Scripts
-- Multiple minified scripts found in `stcdn.leadconnectorhq.com/_preview/`.
-- Scripts handle hydration, navigation, and UI interactions from the original LeadConnector export.
-- Full script list: `current_functions_list.txt`.
+- Scripts found: 47
+- Locations: Primarily in `stcdn.leadconnectorhq.com/_preview/`.
+- These are mostly Nuxt/Vue-based hydration and UI logic from the original builder.
 
-## 5. Components and Sections
-- Repeated patterns identified: Navbars, Footers, Product Cards, and Pricing Tables.
-- Current structure is hardcoded HTML; needs migration to React/shadcn components.
+## 5. Components & Sections Identified
+Based on frequency of IDs and classes across pages:
+- **Navigation**: `#nav-menu-popup`, `.nav-menu`, `.close-menu`
+- **Sections**: `.c-section`, `.fullSection`, `.inner`
+- **Layout**: `.c-row`, `.c-column`, `.preview-container`
+- **Special**: `#custom-code-...` blocks containing external widgets/HTML.
+- **Modals**: Hidden divs with `popup` suffix.
+
+## 6. Recommendations for Redesign
+- Move to a unified Next.js App Router structure.
+- Replace `.c-section` / `.c-row` with semantic components and Tailwind utility classes.
+- Consolidate multiple FontAwesome versions into a single package.
+- Abstract repeating Custom Code blocks into reusable React components.
