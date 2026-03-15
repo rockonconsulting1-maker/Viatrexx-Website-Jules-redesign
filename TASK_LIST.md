@@ -7,21 +7,21 @@ Follow this sequence to execute the redesign. For each task, use the provided pr
 ### Task 1: Information Architecture Audit
 **Agent**: `site-architecture-auditor`
 **Prompt**:
-> "Run the `site-architecture-auditor` on the current `site_snapshot.json`. Analyze the page hierarchy, apply the 3-click rule to flatten the structure, and output a new `ARCHITECTURE.md` including a Mermaid sitemap and a 301 redirect plan."
+> "Run the `site-architecture-auditor` on the current `gathering/site_snapshot.json`. Analyze the page hierarchy, apply the 3-click rule to flatten the structure, and output a new `ARCHITECTURE.md` including a Mermaid sitemap and a 301 redirect plan."
 
 ---
 
 ### Task 2: Design System Extraction
 **Agent**: `ui-ux-design-system-auditor`
 **Prompt**:
-> "Run the `ui-ux-design-system-auditor` on `current_styles.txt` and the root HTML files. Extract primary/secondary colors, typography tokens, and spacing rules. Detect any design anti-patterns. Output a source-of-truth `DESIGN.md` and a `tailwind.config.ts` snippet."
+> "Run the `ui-ux-design-system-auditor` on `gathering/current_styles.txt` and the root HTML files. Extract primary/secondary colors, typography tokens, and spacing rules. Detect any design anti-patterns. Output a source-of-truth `DESIGN.md` and a `tailwind.config.ts` snippet."
 
 ---
 
 ### Task 3: Content & Copy Transformation
 **Agent**: `content-copy-consistency-agent`
 **Prompt**:
-> "Using `current_copywriting.txt` and the newly generated `DESIGN.md`, rewrite the copy for the Homepage and Services pages. Apply the PAS (Problem-Agitation-Solution) framework. Ensure the tone is confident and benefit-driven. Output to `REFACTORED_COPY.md`."
+> "Using `gathering/current_copywriting.txt` and the newly generated `DESIGN.md`, rewrite the copy for the Homepage and Services pages. Apply the PAS (Problem-Agitation-Solution) framework. Ensure the tone is confident and benefit-driven. Output to `REFACTORED_COPY.md`."
 
 ---
 
