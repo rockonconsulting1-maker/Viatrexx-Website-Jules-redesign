@@ -1,0 +1,17 @@
+{
+  "layout": [
+    "use an 8px grid system",
+    "maintain consistent whitespace",
+    "ensure responsive breakpoints are standard"
+  ],
+  "typography": [
+    "limit to 2 font families",
+    "maintain 1.5 line-height for body text",
+    "use semantic heading levels"
+  ],
+  "color": [
+    "ensure WCAG AA contrast ratios",
+    "use a limited primary palette",
+    "avoid pure black (#000)"
+  ]
+}

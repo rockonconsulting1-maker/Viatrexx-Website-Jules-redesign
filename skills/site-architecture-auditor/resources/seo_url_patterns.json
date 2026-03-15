@@ -1,0 +1,13 @@
+{
+  "slug_rules": [
+    "lowercase only",
+    "use hyphens instead of spaces",
+    "no special characters",
+    "max length 75 chars"
+  ],
+  "structural_rules": [
+    "no more than 3 levels deep",
+    "consistent trailing slash policy",
+    "keyword-rich but not stuffed"
+  ]
+}
