@@ -1,8 +1,0 @@
--qwC2%Pns2u1%s%uN0I0%I0p3DaK0H0%kQA25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%l "en, *" https://www.viatrexx.com/ -O1 "C:\Users\ToMat\Desktop\Viatrexx Website Clone\Viatrexx Website clone" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
-File generated automatically on Sat, 31 Jan 2026 01:10:42, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
