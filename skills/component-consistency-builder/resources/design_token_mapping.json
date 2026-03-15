@@ -1,0 +1,10 @@
+{
+  "colors": {
+    "brand-primary": "bg-blue-600",
+    "brand-secondary": "bg-gray-800"
+  },
+  "spacing": {
+    "standard-padding": "p-4",
+    "large-margin": "m-8"
+  }
+}
