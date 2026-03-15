@@ -1,0 +1,45 @@
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          blue: '#0056B3',
+          'dark-blue': '#004494',
+        },
+        action: {
+          blue: '#188BF6',
+        },
+        brand: {
+          text: '#2C3E50',
+          'text-muted': '#667085',
+          bg: '#F8F9FA',
+          border: '#D1D5DB',
+        },
+        wellness: {
+          'grad-1': '#3B82F6',
+          'grad-2': '#556270',
+          'grad-3': '#4ECDC4',
+          'grad-4': '#22D3EE',
+          'grad-5': '#8B5CF6',
+          'grad-6': '#0D47A1',
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'Lato', 'ui-sans-serif', 'system-ui'],
+        display: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+      },
+      borderRadius: {
+        'brand-sm': '0.5rem',
+        'brand-md': '0.75rem',
+      },
+      maxWidth: {
+        'brand-content': '1170px',
+        'brand-feature': '1120px',
+      }
+    },
+  },
+}
+
+export default config
